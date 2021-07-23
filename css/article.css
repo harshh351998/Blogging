@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #C5C2C2;
+}
+
+header {
+    background-color: #A3A3A3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+    margin: 10px auto;
+}
+
+nav {
+    background-color: #444343;
+    width: 90vw;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 55px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav li {
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    background: #3A3838;
+    padding: 7px 10px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    margin-left: 6px;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: turquoise;
+}
+
+hr {
+    height: 10px;
+    width: 1395px;
+    background-color: #D2D3D2;
+    margin: 7px auto;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+section {
+    margin-bottom: 50px;
+    width: 80vw;
+    margin: 0px auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(70, 70, 70);
+
+}
+
+section .heading {
+    margin-top: 40px;
+    margin-bottom: 90px;
+}
+
+section img {
+    float: right;
+    margin-right: 20px;
+}
+
+section .text {
+    padding-top: 90px;
+
+}
+
+section .text h2 {
+    margin-bottom: 60px;
+    font-size: 16px;
+    font-style: italic;
+}
+
+section .text p {
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+section .vote {
+    padding-top: 20px;
+}
+
+section .vote img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-right: 15px;
+    background-color: white;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.bigger {
+    font-size: 30px;
+}
+
+footer {
+    background-color: #383838;
+    width: 90vw;
+    margin: 100px auto;
+    width: 1420px;
+    height: 230px;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav li {
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    padding: 10px 15px;
+}
+
+.nav li a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav li a:hover {
+    color: turquoise;
+}
+
+.social h5 {
+    text-align: center;
+    margin-bottom: 30px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.social a {
+    padding-top: 21px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFEBCD;
+    border: 1px solid transparent;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.copyright a {
+    cursor: pointer;
+}
+
+.copyright a:hover {
+    color: turquoise;
+}
+
+.fa-facebook {
+    background-color: #3B55A0;
+    text-shadow: 0 -1px 0 #354C8C;
+}
+
+.fa-facebook:hover {
+    background-color: #3A4F7B;
+}
+
+.fa-twitter {
+    background-color: #55ACEE;
+}
+
+.fa-twitter:hover {
+    background-color: #4C89B7;
+}
+
+.fa-google {
+    background-color: #B23838;
+}
+
+.fa-google:hover {
+    background-color: #932F2F;
+}
+
+.fa-rss {
+    background-color: #FFA500;
+}
+
+.fa-rss:hover {
+    background-color: #C38411;
+}
+
+.fa-youtube {
+    background-color: rgb(255, 0, 0);
+}
+
+.fa-youtube:hover {
+    background-color: #C31111;
+}
+
+@media screen and (max-width:1024px) {
+    section{
+        width:95vw
+    }
+    .heading img{
+        height: 15rem;
+    }
+    section .text{
+        padding-top: 10px;
+    }
+    footer{
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width:768px){
+  .heading img{
+      width:23rem;
+  }
+  .section .para{
+      font-size: 0.9rem;
+  }
+
+  nav li{
+      font-size: 0.9rem;
+  }
+  footer .copyright {
+      font-size: 0.8rem;
+  }
+}
+@media screen and (max-width:690px){
+
+  .heading img{
+      width:23rem;
+  }
+  .section .para{
+      font-size: 0.9rem;
+  }
+
+  nav li{
+      font-size: 0.7rem;
+  }
+  footer .copyright {
+      font-size: 0.7rem;
+  }
+}
+@media screen and (max-width:630px){
+  
+  section .heading{
+      margin-top: 10px;
+  }
+  section .text h2{
+      margin-bottom: 10px;
+      font-size: 1rem;
+  }
+  section .text p{
+      font-size: 0.8rem;
+  }
+
+  .heading img{
+      width:20rem;
+      height: 14rem;
+  }
+  .section .para{
+      font-size: 0.9rem;
+  }
+
+  nav li{
+      font-size: 0.5rem;
+  }
+
+  footer .copyright{
+      font-size: 0.7rem;
+  }
+}
+

@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #C3C3C3;
+}
+
+nav {
+    margin-left: 40px;
+    margin-top: 12px;
+}
+
+nav li {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 0.5rem;
+    list-style: none;
+    background: #444343;
+    color: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.content {
+    width: 600px;
+    height: 80vh;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px 0 rgba(14, 13, 13, 0.2);
+    border-radius: 5px;
+}
+
+.content:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.content .heading {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    font-family: 'Roboto Slab',
+    serif;
+}
+
+.content p {
+    text-align: center;
+    color: #5D5D5D;
+    font-size: 1.4rem;
+}
+
+.signup{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 170px;
+    height: 36px;
+    margin:0 auto;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    font-family: -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
+}
+.facebook {
+    background-color: #3566A5;
+    color: white;
+}
+
+.google {
+    background-color: #B23838;
+    color: white;
+}
+
+.signup a{
+    border-right: 3px solid white;
+    padding-right: 1.5rem;
+}
+
+#ask{
+    font-weight: bold;
+    font-size: 1.6rem;
+    color:black;
+}
+
+.login{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 120px;
+    height: 34px;
+    margin: 0 auto;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.login a {
+    border-right: 2px solid white;
+    padding-right: 15px;
+}
+
+.login h3 {
+    font-size: 0.9rem;
+}
+
+#terms{
+    width: 400px;
+    margin: 0 auto;
+    font-size: 1.3rem;
+}
+
+@media screen and (max-width:768px) {
+    .content{
+        width: 89vw;
+        height: 88vh;
+    }
+    
+}
